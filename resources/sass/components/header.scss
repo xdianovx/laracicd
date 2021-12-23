@@ -1,0 +1,36 @@
+.header {
+    background: $accent;
+    padding: 12px 0;
+}
+
+.header__wrap {
+    display: flex;
+    color: $textMain;
+    align-items: center;
+}
+
+.header .logo {
+    font-size: 32px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.header__nav {
+    margin-left: 30px;
+    color: #ffffff;
+    ul {
+        display: flex;
+    }
+
+    li {
+        margin-right: 20px;
+        &:last-of-type {
+            margin-right: 0;
+        }
+    }
+}
+
+
+.header__btn {
+    margin-left: auto;
+}
